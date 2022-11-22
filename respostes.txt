@@ -4,3 +4,4 @@
 4-mkdir si
 5-mv si.txt si
 6-cat Alumno.txt | awk '{print $1, $2, $5}' | sed 's/ /:/' | sed 's/ /-/g' | sed 's/:/ /' | tail -n+2
+7-cat Alumnos.txt | grep González | wc -l | uniq
